@@ -1,0 +1,5 @@
+A = int(input("Donner SVP l'angle A: "))
+B = int(input("Donner SVP l'angle B: "))
+C = 180-(A+B)
+if A<=0 or B<=0 or C<=0:print("Impossible")
+else:print("L'angle C =" ,C)
