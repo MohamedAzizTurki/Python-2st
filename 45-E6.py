@@ -1,0 +1,6 @@
+M1 = float(input("Donner SVP la note de la premiere matière: "))
+M2 = float(input("Donner SVP la note de la deuxième matière: "))
+M3 = float(input("Donner SVP la note de la troisième matière: "))
+M4 = float(input("Donner SVP la note de la quatrième matière: "))
+M5 = float(input("Donner SVP la note de la cinquième matière: "))
+print("La Moyenne =",(M1+M2+M3+M4+M5)/5)
